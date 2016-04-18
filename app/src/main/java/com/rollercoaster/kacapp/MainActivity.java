@@ -50,6 +50,13 @@ public class MainActivity extends AppCompatActivity {
         } else launchMarket(pysznePackage);
     }
 
+    @OnClick(R.id.logo_dw)
+    public void dobrzewiesz() {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.dobrzewiesz_url)));
+        startActivity(intent);
+    }
+
     private void launchMarket(String packageName) {
         try {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + packageName)));

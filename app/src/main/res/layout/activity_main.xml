@@ -43,6 +43,7 @@
 
     </LinearLayout>
 
-    <ImageView style="@style/Logo"/>
+    <ImageView android:id="@+id/logo_dw"
+        style="@style/Logo"/>
 
 </LinearLayout>
