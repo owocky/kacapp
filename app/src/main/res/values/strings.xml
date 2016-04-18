@@ -4,4 +4,6 @@
     <string name="ambulance">Zamów karetkę</string>
     <string name="share">Udostępnij swój stan upojenia</string>
     <string name="order">Zamów klina on-line</string>
+    <string name="drunk">pijacy</string>
+    <string name="pyszne_package">com.yourdelivery.pyszne</string>
 </resources>
