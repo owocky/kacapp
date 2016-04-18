@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.rollercoaster.kacapp.MainActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:text="Hello World!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+    <FrameLayout
+        style="@style/TitleContainer">
+
+        <ImageView style="@style/Plus" />
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/app_name"/>
+
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_nearby"
+            style="@style/KacButton"
+            android:text="@string/nearby"/>
+
+        <Button
+            android:id="@+id/button_ambulance"
+            style="@style/KacButton"
+            android:text="@string/ambulance"/>
+
+        <Button
+            android:id="@+id/button_share"
+            style="@style/KacButton"
+            android:text="@string/share"/>
+
+        <Button
+            android:id="@+id/button_order"
+            style="@style/KacButton"
+            android:text="@string/order"/>
+
+    </LinearLayout>
+
+    <ImageView style="@style/Logo"/>
+
+</LinearLayout>

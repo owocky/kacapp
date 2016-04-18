@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kac App</string>
+    <string name="nearby">Znajdź pijącego w pobliżu</string>
+    <string name="ambulance">Zamów karetkę</string>
+    <string name="share">Udostępnij swój stan upojenia</string>
+    <string name="order">Zamów klina on-line</string>
 </resources>
