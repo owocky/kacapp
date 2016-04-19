@@ -4,7 +4,7 @@
     <string name="ambulance">Zamów karetkę</string>
     <string name="share">Udostępnij swój stan upojenia</string>
     <string name="order">Zamów klina on-line</string>
-    <string name="drunk">pijacy</string>
+    <string name="drunk" formatted="false">%</string>
     <string name="pyszne_package">com.yourdelivery.pyszne</string>
     <string name="dobrzewiesz_url">http://dobrzewiesz.net/</string>
 </resources>
